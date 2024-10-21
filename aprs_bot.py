@@ -4,6 +4,8 @@ import openai
 import time
 import os
 
+#Desarrollado por HJ6DIE / Asorec
+
 # === Configuración de constantes ===
 # La clave de API debe almacenarse en una variable de entorno para seguridad
 openai.api_key = os.getenv('OPENAI_API_KEY')  # Debes configurar esta variable de entorno
@@ -144,3 +146,5 @@ threading.Thread(target=recibir_mensajes).start()
 
 # Iniciar el envío de beacon en un hilo separado
 threading.Thread(target=enviar_beacon).start()
+
+
