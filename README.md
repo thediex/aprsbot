@@ -28,4 +28,19 @@ Para configurar la variable de entorno (ejemplo en Linux/MacOS):
 ```bash
 export OPENAI_API_KEY='tu-clave-aqui'
 ```
-
+##Indicativo y APRS
+Configura tu indicativo de APRS y contraseña directamente en el archivo de código:
+```bash
+CALLSIGN = "tu-indicativo"
+APRS_PASS = "tu-contraseña"
+```
+## Ejecución
+Para ejecutar el bot, una vez que todo esté configurado, simplemente corre el siguiente comando:
+```bash
+python aprs_bot.py
+```
+El bot comenzará a escuchar mensajes APRS y a responder automáticamente.
+## Ejemplo de Uso
+El bot responde preguntas sobre la historia de los scouts o cualquier otro tema que se le configure. Para iniciar una nueva conversación, basta con enviar el mensaje nueva.
+## Licencia
+Este proyecto está licenciado bajo los términos de la MIT License.
