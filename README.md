@@ -1,3 +1,4 @@
+# Desarrollado por HJ6DIE / Asorec
 # APRS Bot con IA
 
 Este proyecto implementa un bot que utiliza inteligencia artificial para comunicarse a través de la red APRS. El bot responde automáticamente a mensajes APRS utilizando la API de OpenAI (GPT) y limita las respuestas a 67 caracteres, como exige el protocolo APRS. Este bot es flexible y puede ser utilizado en cualquier evento o contexto donde se quiera integrar APRS con respuestas automatizadas.
