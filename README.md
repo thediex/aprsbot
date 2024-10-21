@@ -19,7 +19,7 @@ Este proyecto implementa un bot que utiliza inteligencia artificial para comunic
 Puedes instalar las dependencias ejecutando:
 ```bash
 pip install aprslib openai
-
+```
 # Configuración
 ## Variables de entorno
 Para utilizar el bot, necesitarás una clave de la API de OpenAI. Por razones de seguridad, es recomendable que configures esta clave como una variable de entorno.
@@ -27,5 +27,5 @@ Para utilizar el bot, necesitarás una clave de la API de OpenAI. Por razones de
 Para configurar la variable de entorno (ejemplo en Linux/MacOS):
 ```bash
 export OPENAI_API_KEY='tu-clave-aqui'
-
+```
 
